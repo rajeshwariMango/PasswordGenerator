@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#dbcee7"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/passwordTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:background="#bbbbbb"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+    <Button
+        android:id="@+id/generateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textSize="20sp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="Generate Password" />
+
+
+
+</LinearLayout>
